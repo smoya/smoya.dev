@@ -1,0 +1,4 @@
+baseURL = 'http://smoya.dev/'
+languageCode = 'en-us'
+title = 'smoya.dev'
+theme = 'PaperMod'
