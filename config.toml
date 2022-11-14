@@ -1,4 +1,4 @@
-baseURL = 'http://smoya.dev/'
+baseURL = 'https://smoya.dev/'
 languageCode = 'en-us'
 title = 'smoya.dev'
 theme = 'PaperMod'
