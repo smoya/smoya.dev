@@ -2,3 +2,105 @@ baseURL = 'http://smoya.dev/'
 languageCode = 'en-us'
 title = 'smoya.dev'
 theme = 'PaperMod'
+enableRobotsTXT = true
+googleAnalytics = 'G-Y7HPZSTT3G'
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "smoya.dev"
+description = "Sergio Moya's personal blog"
+keywords = [ "Blog", "Personal notes", "Software Engineering", "Software Architecture", "Design of Applications", "Cloud Computing", "CI/CD", "API", "Event-Driven", "EDA", "Domain Driven Design", "Sport Aviation"]
+author = "Sergio Moya"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+  [params.assets]
+  favicon = "/square-regular.svg"
+
+  [params.label]
+  text = "smoya.dev"
+  iconSVG = '<svg height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM384 80H64C55.16 80 48 87.16 48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80z"/></svg>'
+
+  [params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = "Welcome to my blog. I write about Software Engineering, Light-Sport Aviation, personal thoughts, and more."
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/smoyac"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/smoya"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/smoya"
+
+  [[params.socialIcons]]
+  name = "buymeacoffee"
+  url = "https://www.buymeacoffee.com/smoya"
+
+
+# [params.analytics.google]
+# SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = "https://github.com/smoya/smoya.dev/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "bcneng"
+name = "bcneng.org"
+url = "https://bcneng.org"
+weight = 30
+
+[markup.highlight]
+noClasses = false
