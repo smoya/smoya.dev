@@ -1,6 +1,7 @@
 ---
 title: "AsyncAPI Spec and parsers update 🏖️Summer Edition 🏖️ (May and June 2022)"
 date: 2022-06-30T00:00:00+01:00
+tags: ["asyncapi"]
 draft: false
 ---
 
