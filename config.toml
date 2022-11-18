@@ -43,7 +43,7 @@ tocopen = false
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
-  Content = "Welcome to my blog. I write about Software Engineering, Light-Sport Aviation, personal thoughts, and more."
+  Content = "Welcome to my blog. I write about Software Engineering, Light-Sport Aviation, and my thoughts."
 
   [[params.socialIcons]]
   name = "twitter"
