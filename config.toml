@@ -66,12 +66,14 @@ tocopen = false
 # SiteVerificationTag = "XYZabc"
 
   [params.cover]
-  hidden = true
+  
+  linkFullImages = true
+  # hidden = true
   hiddenInList = true
-  hiddenInSingle = true
+  # hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/smoya/smoya.dev/content"
+  URL = "https://github.com/smoya/smoya.dev/tree/main/content"
   Text = "Suggest Changes"
   appendFilePath = true
 
