@@ -13,7 +13,7 @@ Are you interested in distributed systems? Grab your 🍿 because you might enjo
 
 I first discovered an article by Martin Kleppmann: ["How to do distributed locking"](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html). It offers a deep dive into the complexities and challenges of implementing distributed locks, and focuses on Redis Redlock pattern. Kleppmann’s perspectives are thought-provoking and provide a solid understanding of the topic.
 
-Following that, I found [the rebuttal from Salvatore Sanfilippo](http://antirez.com/news/101), the creator of Redlock, which is also worth reading (actually a must). In the response, Salvatore addresses the concerns raised by Kleppmann and defends the design decisions behind Redlock. You can read the response here: Salvatore's Response.
+Following that, I found [the rebuttal from Salvatore Sanfilippo](http://antirez.com/news/101), the creator of Redlock, which is also worth reading (actually a must). In the response, Salvatore addresses the concerns raised by Kleppmann and defends the design decisions behind Redlock.
 
 Interestingly, these discussions have even made their way into the [official Redis documentation](https://redis.io/docs/latest/develop/use/patterns/distributed-locks/). 
 
